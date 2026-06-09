@@ -12,3 +12,6 @@ jobs:
   docker-ci:
     needs: java-test
     uses: ./.github/workflows/docker-ci-reusable.yml
+    permissions:
+      contents: read
+      actions: write
