@@ -1,4 +1,4 @@
-name: java-test.yml
+name: java-test-with-caching.yml
 on:
   push:
     branches:
