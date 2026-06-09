@@ -1,0 +1,5 @@
+services:
+  app:
+    image: ghcr.io/freja-bot/spring-ghcr-starter:main-f4f5cdc
+    ports:
+      - "8090:8080"
